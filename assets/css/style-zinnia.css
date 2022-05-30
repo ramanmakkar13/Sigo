@@ -1,10 +1,4 @@
-/*!
- * Theme Name: ICOCrypto
- * Author: Softnio
- * Author URI: http://themeforest.net/user/softnio
- * Version	 :	2.0.0
- * Updated	 :	03/08/2022
-**/
+
 /**
 ----------------------
 ## TABLE CONTNETS ##
@@ -6940,3 +6934,23 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 /* END @iO */
 /* END @iO */
+.banner-caption:not([class*=wide]) {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+@media (min-width: 1200px){
+.header-navbar-s1 .menu > .menu-item > a {
+    padding: 20px 8.5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+  margin-right: 54px;
+}
+}
