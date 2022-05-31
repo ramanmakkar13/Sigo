@@ -6954,3 +6954,6 @@ ul.progress-info { display: flex; justify-content: space-between; }
   margin-right: 54px;
 }
 }
+#footer-logo{
+  width: 25%;
+}
