@@ -1705,13 +1705,13 @@ hr { position: relative; z-index: 5; }
 
 .btn-outline.on-bg-theme-dark-alt:before { background-color: #132582; }
 
-.btn-outline:hover, .btn-outline:focus { color: #fff !important; }
+.btn-outline:hover, .btn-outline:focus { color: #fff ; }
 
 .btn-outline:hover:before, .btn-outline:focus:before { opacity: 0; }
 
 .btn-outline.btn-grad { border: none; }
 
-.btn-outline.btn-grad:hover, .btn-outline.btn-grad:focus { color: #fff !important; }
+.btn-outline.btn-grad:hover, .btn-outline.btn-grad:focus { color: #fff ; }
 
 .btn-icon { min-width: 44px; padding-left: 6px; padding-right: 6px; }
 
@@ -6963,4 +6963,12 @@ ul.menu.animated.remove-animation.fadeInDown {
     font-size: 16px !important;
     font-weight: 500;
 }
+}
+img#footer-logo {
+  width: 30%;
+}
+
+.gutter-vr-30px {
+  margin-top: 35px !important;
+  margin-bottom: -10px !important;
 }
